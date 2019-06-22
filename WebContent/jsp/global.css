@@ -1,0 +1,71 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-image: url(Liberty.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 1400px 800px
+}
+.form-container{
+      width:250px;
+      height: auto;
+      padding: 20px  30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 #000;
+}
+ .login-box{
+     width: 320px;
+     height: 420px;
+     background: rgba(0, 0, 0, 0.5);
+     color: #fff;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing: border-box;
+     padding: 80px 40px;
+}
+ h1{
+     margin: 0;
+     padding: 0 0 20px;
+     text-align: center;
+     font-size: 22px;
+}
+ .login-box p{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+}
+ .login-box input{
+     width: 100%;
+     margin-bottom: 20px;
+}
+ .login-box input[type="text"], input[type="password"]
+{
+     border: none;
+     border-bottom: 1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color: #fff;
+     font-size: 16px;
+}
+
+ .login-box input[type="submit"]
+ {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #1c8adb;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+}
+
+ .login-box input[type="submit"]:hover
+{ 
+      cursor: pointer;
+      background: #39dc78;
+      color: #000; 
+}
