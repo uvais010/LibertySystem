@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.build.liberty.delegate.LoginDelegate;
 import com.build.liberty.viewBean.LoginBean;
 
-
+@RequestMapping(value = "/**", produces = {"text/plain", "application/*"})
 @Controller
 public class LoginController
 {
